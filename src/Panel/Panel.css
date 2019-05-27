@@ -1,0 +1,13 @@
+/*viewport example 1920 x 1080*/
+
+ div.card{
+    max-height: 57vh;
+    max-width: 70vw;
+    min-height:  57vh;
+    min-width: 70vw;
+    border: 0;
+    border-radius: 15px;
+    position: fixed;
+    top: 21.4vh;
+    left: 15vw;
+}

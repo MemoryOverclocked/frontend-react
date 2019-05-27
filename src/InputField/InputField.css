@@ -1,0 +1,13 @@
+.form-control::placeholder{
+    color:#969696;
+    opacity: 100%;
+    letter-spacing: .030em;
+}
+
+.form-control{
+    border-color: #DBDBDB;
+    color: #969696;
+    opacity: 100%;
+    letter-spacing: .030em;
+}
+
