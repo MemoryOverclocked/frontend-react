@@ -2,3 +2,11 @@
     text-align: center;
 }
 
+.container-fluid{
+    height: 100%;
+
+}
+
+#login-panel{
+    width: 50em;
+}
