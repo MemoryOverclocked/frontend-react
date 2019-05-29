@@ -3,10 +3,10 @@ div#button{
 }
 
 div.container-fluid{
-    max-height: 51.9%;
-    max-width: 56.7%;
-    min-height: 51.9%;
-    min-width: 56.7%;
+    min-height: 51.9vh;
+    min-width: 56.7vw;
+    height: 51.9vh;
+    width: 56.7vw;
     border: 0;
     font-size: 1em;
     border-radius: 15px;

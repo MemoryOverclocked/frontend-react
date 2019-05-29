@@ -12,14 +12,16 @@ class LoginPanel extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <Panel id="panel">
+                 <div className="row">
+                     <div className="col-12" id="panel">
+                <Panel>
                     <div className="row">
-                        <div className="col-8 offset-2">
+                        <div className="col-12">
                             <InputField></InputField>
                         </div>
                     </div>
                     <div className="row" id="button">
-                        <div className="col-8 offset-2">
+                        <div className="col-12">
                             <Button>Login</Button>
                         </div>
                     </div>
@@ -32,6 +34,8 @@ class LoginPanel extends Component {
                         </div>
                     </div>
                 </Panel>
+                </div>
+                </div>
             </div>
         );
     }
