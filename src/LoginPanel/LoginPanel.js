@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Panel from '../Panel/Panel';
 import InputField from '../InputField/InputField';
@@ -11,35 +11,27 @@ import './LoginPanel.css';
 class LoginPanel extends Component {
     render() {
         return (
-            <div className="container">
-                <div className="col-10">
-                    <Panel>
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="col-7 mx-auto">
-                                    <InputField></InputField>
-                                </div>
-                            </div>
+            <div className="container-fluid">
+                <Panel id="panel">
+                    <div className="row">
+                        <div className="col-8 offset-2">
+                            <InputField></InputField>
                         </div>
-                        <div className="container-fluid" id="button">
-                            <div className="row">
-                                <div className="col-7 mx-auto">
-                                    <Button>Login</Button>
-                                </div>
-                            </div>
+                    </div>
+                    <div className="row" id="button">
+                        <div className="col-8 offset-2">
+                            <Button>Login</Button>
                         </div>
-                        <div className="container-fluid" id="registration-links">
-                            <div className="row">
-                                <div className="col-6 mx-auto">
-                                    <RegistrationLink>Sign Up</RegistrationLink>
-                                </div>
-                                <div className="col-6 mx-auto">
-                                    <RegistrationLink>Forgot</RegistrationLink>
-                                </div>
-                            </div>
+                    </div>
+                    <div className="row" id="registration-links">
+                        <div className="col-4 offset-2" id="sign-up">
+                            <Link to="/Dashboard"><RegistrationLink>Sign Up</RegistrationLink></Link>
                         </div>
-                    </Panel>
-                </div>
+                        <div className="col-4 offset-2" id="forgot">
+                            <RegistrationLink>Forgot</RegistrationLink>
+                        </div>
+                    </div>
+                </Panel>
             </div>
         );
     }

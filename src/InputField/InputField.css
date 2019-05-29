@@ -1,13 +1,17 @@
 .form-control::placeholder{
     color:#969696;
-    opacity: 100%;
     letter-spacing: .030em;
+    font-size: 1em;
 }
 
 .form-control{
     border-color: #DBDBDB;
     color: #969696;
-    opacity: 100%;
+    border-width: 2px;
     letter-spacing: .030em;
+    /* stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto; */
 }
 

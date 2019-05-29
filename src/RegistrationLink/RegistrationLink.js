@@ -5,7 +5,7 @@ import './RegistrationLink.css'
 class RegistrationLink extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="links">
                 {this.props.children}
             </div>
         );
